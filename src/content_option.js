@@ -8,13 +8,12 @@ const introdata = {
   title: "I’m Glenn Christian Sumido",
   animated: {
     first: "Software Engineer",
-    second: "Rocketpool Node Operator",
-    third: "Gogopool Node Operator",
+    second: "Rocketpool (Ethereum) Node Operator",
+    third: "Gogopool (Avalanche) Node Operator",
     fourth: "Dymension Node Operator",
   },
   description: "I'm a Software Engineer that specializes in building projects from 0 to 1. I'm also an experienced blockchain node operator.",
   your_img_url: "https://euyem62xryagdykf2fhq53erdw6c7vu6ey4im7pgqe74werzp3kq.arweave.net/JTBGe1eOAGHhRdFPDuyRHbwv1p4mOIZ95oE_yxI5ftU",
-  // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
@@ -144,37 +143,6 @@ const dataportfolio = [{
   description: "Star Trek (2013) is a 3rd person action-adventure game developed by Digital Extremes.",
   link: "https://www.amazon.ca/BANDAI-21073-Star-Trek-Xbox/dp/B007ZQJN1Y",
 },
-
-  // {
-  //   img: "https://picsum.photos/400/600/?grayscale",
-  //   description: "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/300/?grayscale",
-  //   description: "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/?grayscale",
-  //   description: "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/550/?grayscale",
-  //   description: "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/?grayscale",
-  //   description: "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/700/?grayscale",
-  //   description: "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
 ];
 
 const contactConfig = {
@@ -188,7 +156,7 @@ const contactConfig = {
   YOUR_USER_ID: "user_id",
 };
 
-const socialprofils = {
+const socialprofiles = {
   github: "https://github.com/gcbsumid",
   linkedin: "https://linkedin.com/in/chrsum",
   twitter: "https://twitter.com/YouthStandard",
@@ -203,6 +171,6 @@ export {
   services,
   introdata,
   contactConfig,
-  socialprofils,
+  socialprofiles,
   logotext,
 };
