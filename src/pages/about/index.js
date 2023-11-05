@@ -6,6 +6,7 @@ import {
   dataabout,
   meta,
   worktimeline,
+  blockchains,
   skills,
   services,
 } from "../../content_option";
@@ -37,7 +38,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Work Experience</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -53,6 +54,24 @@ export const About = () => {
                 })}
               </tbody>
             </table>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec pt-4">Blockchains</h3>
+            <div>
+              <h6 className="color_sec py-2">Nodes running for:</h6>
+            </div>
+          </Col>
+          <Col lg="7">
+            {blockchains.map((data, i) => {
+              return (
+                <div className="service_ py-2" key={i}>
+                  <h5 className="service__title">{data.blockchain}</h5>
+                  <p className="service_desc">{data.date}</p>
+                </div>
+              );
+            })}
           </Col>
         </Row>
         <Row className="sec_sp">
@@ -81,7 +100,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Services</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
